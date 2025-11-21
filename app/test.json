@@ -1,0 +1,12 @@
+[
+    {
+        "pgm_name": "ZDEMO_DESC",
+        "inc_name": "ZDEMO_DESC_I01",
+        "type": "PROG",
+        "name": "MAIN",
+        "start_line": 1,
+        "end_line": 999,
+        "code": "DATA lt_tab TYPE STANDARD TABLE OF i.\nDATA lv_cnt TYPE i.\nDESCRIBE TABLE lt_tab LINES lv_cnt.\nDATA lv_ok TYPE i.\nlv_ok = LINES( lt_tab ).\nDESCRIBE TABLE lt_tab LINES lv_total.\nWRITE lv_cnt.",
+        "class_implementation": ""
+    }
+]
